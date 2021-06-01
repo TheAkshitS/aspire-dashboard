@@ -1,0 +1,23 @@
+$font-stack: 'Open Sans', sans-serif;
+
+$sidebar-color: #0c365a;
+$primary-color: #325baf;
+$secondary-color: #01d167;
+$light-blue-color: #edf3ff;
+$white-color: #ffffff;
+$black-color: #000000;
+$blue-color: #23cefd;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $white-color;
+  font-family: $font-stack;
+  line-height: 1.6;
+  position: relative;
+  box-sizing: border-box;
+}

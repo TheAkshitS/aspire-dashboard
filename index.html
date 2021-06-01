@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="module" src="/main.js"></script>
+  <title>Aspire</title>
+</head>
+
+<body>
+  <div class="section flex">
+    <nav class="section__left">
+      <div class="section__left__nav flex pT-5 p-3">
+        <div class="section__left__logo d-none-mob">
+          <img src="assets/Logo.svg" />
+        </div>
+        <div class="section-right-logo d-none d-block-mob text-end">
+          <img src="assets/Logo (1).svg" />
+        </div>
+        <div class="section__left__subtitle d-none-mob">
+          Trusted way of banking for 3,000+ SMEs and startups in Singapore
+        </div>
+
+        <!-- mobile header  -->
+        <div class="d-none d-block-mob">
+          <div class="d-flex justify-content-between align-items-end">
+            <div>
+              <p class="white">Account Balance</p>
+              <div class="d-flex justify-content-start align-items-center">
+                <div class="bg-green available-balance__currency">
+                  S$
+                </div>
+                <div class="white available-balance__amount">3,000</div>
+              </div>
+            </div>
+            <div class="flex align-center">
+              <img src="assets/box.svg" />
+              <span class="blue ms-2">New card</span>
+            </div>
+          </div>
+
+          <div class="section__right--bottom">
+            <ul class="flex justify-content-start mt-5">
+              <li><a class="white b border-bottom-blue pB-1">My debit cards</a></li>
+              <li><a class="text-muted ps-4 pB-1">All company cards</a></li>
+            </ul>
+
+            <div class="pT-2">
+              <div class="section__card--left">
+                <div class="text-end">
+                  <div class="bg-white show-card-no">
+                    <img src="assets/remove_red_eye-24px.svg" alt="" />
+                    <span class="green">Show card number</span>
+                  </div>
+                </div>
+                <div class="section__visa green-container flex position-rel">
+                  <div class="flex right-align"><img src="assets/AspireLogo.svg" alt="aspire logo" /></div>
+                  <div>Mark Henry</div>
+                  <div class="dots pY-3">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                    <span class="dot ms-2"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                    <span class="dot ms-2"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+
+                    <span class="ms-2">2020</span>
+                  </div>
+                  <div>
+                    <span>Thru: 12/20</span>
+                    <span class="ps-5">CVV: * * *</span>
+                  </div>
+                  <div class="flex right-align pT-2">
+                    <img src="assets/Visa Logo.svg" class="visa-logo" alt="visa logo" />
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                  <div class="indicater-1"></div>
+                  <div class="indicater-2"></div>
+                  <div class="indicater-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="section__left__navitem">
+          <li class="navigation-item">
+            <a href="" class="flex">
+              <img src="assets/Home.svg" alt="home" />
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a href="" class="flex">
+              <img src="assets/Card.svg" alt="card" />
+              <span>Cards</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a href="" class="flex">
+              <img src="assets/Payments.svg" alt="payments" />
+              <span>Payments</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a href="" class="flex">
+              <img src="assets/Credit.svg" alt="credit" />
+              <span>Credit</span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a href="" class="flex">
+              <img src="assets/Account.svg" alt="account" />
+              <span>Settings</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- main section mobile  -->
+    <main class="d-none d-block-mob mobile-bottom-section">
+      <div>
+        <div class="flex section__cards section__cards--center">
+          <div class="flex card text-center">
+            <div><img src="assets/Freeze card.svg" /></div>
+            <div class="card__title">Freeze card</div>
+          </div>
+          <div class="flex card text-center">
+            <div><img src="assets/Set spend limit.svg" /></div>
+            <div class="card__title">Set spend limit</div>
+          </div>
+          <div class="flex card text-center">
+            <div><img src="assets/GPay.svg" /></div>
+            <div class="card__title">Add to GPay</div>
+          </div>
+          <div class="flex card text-center">
+            <div><img src="assets/Replace card.svg" /></div>
+            <div class="card__title">Replace card</div>
+          </div>
+          <div class="flex card text-center">
+            <div><img src="assets/Deactivate card.svg" /></div>
+            <div class="card__title">Cancel card</div>
+          </div>
+        </div>
+        <div class="p-2">
+          <div class="section__card--right">
+            <div>
+              <div class="flex section__cards section__cards--away">
+                <div class="d-flex">
+                  <div>
+                    <img src="assets/Group 11889.svg" alt="" />
+                  </div>
+                  <div class="detail">Card details</div>
+                </div>
+                <span><img src="assets/down-arrow.svg" /></span>
+              </div>
+            </div>
+            <div class="transation-border mob-nav-margin">
+              <div class="flex section__cards section__cards--away">
+                <div class="d-flex">
+                  <div>
+                    <img src="assets/recent.svg" alt="" />
+                  </div>
+                  <div class="detail">Recent transactions</div>
+                </div>
+                <span><img src="assets/up-arrow.svg" /></span>
+              </div>
+              <div class="transaction-list">
+                <div class="transaction-item d-flex justify-content-between m-4 pY-3 borde-btm-light">
+                  <div class="file-storage-bg text-center">
+                    <img src="assets/file-storage (1).svg" alt="" />
+                  </div>
+                  <div class="d-flex justify-content-between w-80">
+                    <div>
+                      <p class="b mB-1">Hamleys</p>
+                      <p class="text-muted">
+                        20 May 2020
+                      </p>
+                      <div class="flex align-center">
+                        <span>
+                          <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                        </span>
+                        <span class="refund-text">Change to Debit card</span>
+                      </div>
+                    </div>
+                    <div class="green debit-amt">
+                      + S$ 500
+                      <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="transaction-item d-flex justify-content-between m-4 pY-3 borde-btm-light">
+                  <div class="file-storage-bg text-center flight">
+                    <img src="assets/flights.svg" alt="" />
+                  </div>
+                  <div class="d-flex justify-content-between w-80">
+                    <div>
+                      <p class="b mB-1">Hamleys</p>
+                      <p class="text-muted">
+                        20 May 2020
+                      </p>
+                      <div>
+                        <span>
+                          <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                        </span>
+                        <span class="refund-text">Refund on Debit card</span>
+                      </div>
+                    </div>
+                    <div class="debit-amt">
+                      - S$ 500
+                      <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="transaction-item d-flex justify-content-between m-4 pY-3 borde-btm-light">
+                  <div class="file-storage-bg text-center megafone">
+                    <img src="assets/megaphone.svg" alt="" />
+                  </div>
+                  <div class="d-flex justify-content-between w-80">
+                    <div>
+                      <p class="b mB-1">Hamleys</p>
+                      <p class="text-muted">
+                        20 May 2020
+                      </p>
+                      <div class="flex align-center">
+                        <span>
+                          <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                        </span>
+                        <span class="refund-text">Change to Debit card</span>
+                      </div>
+                    </div>
+                    <div class="debit-amt">
+                      - S$ 500
+                      <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="transaction-item d-flex justify-content-between m-4 pY-3">
+                  <div class="file-storage-bg text-center">
+                    <img src="assets/file-storage (1).svg" alt="" />
+                  </div>
+                  <div class="d-flex justify-content-between w-80">
+                    <div>
+                      <p class="b mB-1">Hamleys</p>
+                      <p class="text-muted">
+                        20 May 2020
+                      </p>
+                      <div>
+                        <span>
+                          <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                        </span>
+                        <span class="refund-text">Refund on Debit card</span>
+                      </div>
+                    </div>
+                    <div class="debit-amt">
+                      + S$ 500
+                      <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center green all-trans-text pY-4">
+                <p class="m-0">View all card transaction</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile navbar  -->
+        <div>
+          <ul class="mobile-navbar d-flex justify-content-between nav-shadow">
+            <li class="navigation-item">
+              <a href="" class="text-center text-deco-none">
+                <img src="assets/Logonav.svg" alt="home" />
+                <div class="menu-text">Home</div>
+              </a>
+            </li>
+            <li class="navigation-item">
+              <a href="" class="text-center text-deco-none">
+                <div><img src="assets/Card.svg" alt="card" /></div>
+                <div class="menu-text green">Cards</div>
+              </a>
+            </li>
+            <li class="navigation-item text-deco-none">
+              <a href="" class="text-center">
+                <div><img src="assets/Payments.svg" alt="payments" /></div>
+                <div class="menu-text">Payments</div>
+              </a>
+            </li>
+            <li class="navigation-item text-deco-none">
+              <a href="" class="text-center">
+                <div><img src="assets/Credit.svg" alt="credit" /></div>
+                <div class="menu-text">Credit</div>
+              </a>
+            </li>
+            <li class="navigation-item text-deco-none">
+              <a href="" class="text-center">
+                <div><img src="assets/Accountnav.svg" alt="account" /></div>
+                <div class="menu-text">Settings</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- main web  -->
+    <main class="section__right p-3 d-none-mob">
+      <div class="section__right__title">Available balance</div>
+      <div class="section__right--top flex justify-space">
+        <div class="available-balance align-center flex">
+          <span class="green-container available-balance__currency">S$</span>
+          <span class="available-balance__amount">3,000</span>
+        </div>
+        <div>
+          <button class="button-primary flex">
+            <img src="assets/boxs.svg" />
+            <span class="card-btn">New card</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="section__right--bottom">
+        <ul class="flex">
+          <li><a>My debit cards</a></li>
+          <li><a>All company cards</a></li>
+        </ul>
+
+        <div class="section__card">
+          <div class="section__card--number flex w-50 card-no">
+            <div class="flex align-center">
+              <span><img src="assets/remove_red_eye-24px.svg" alt="" /></span>
+              <span class="green b card-no">Show card number</span>
+            </div>
+          </div>
+
+          <div class="section__card--main">
+            <div class="section__card--left">
+              <div class="section__visa green-container flex">
+                <div class="flex right-align"><img src="assets/AspireLogo.svg" alt="aspire logo" /></div>
+                <div>Mark Henry</div>
+                <div class="dots">
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+
+                  <span class="dot ms-2"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+
+                  <span class="dot ms-2"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+                  <span class="dot"></span>
+
+                  <span class="ms-2">2020</span>
+                </div>
+                <div>
+                  <span class="mR-5">Thru: 12/20</span>
+                  <span>CVV: * * *</span>
+                </div>
+                <div class="flex right-align">
+                  <img src="assets/Visa Logo.svg" class="visa-logo" alt="visa logo" />
+                </div>
+              </div>
+              <div class="d-flex justify-content-center">
+                <div class="indicater-1"></div>
+                <div class="indicater-2"></div>
+                <div class="indicater-2"></div>
+              </div>
+
+              <div class="flex section__cards section__cards--center m-0">
+                <div class="flex card text-center">
+                  <div><img src="assets/Freeze card.svg" /></div>
+                  <div class="card__title">Freeze card</div>
+                </div>
+                <div class="flex card text-center">
+                  <div><img src="assets/Set spend limit.svg" /></div>
+                  <div class="card__title">Set spend limit</div>
+                </div>
+                <div class="flex card text-center">
+                  <div><img src="assets/GPay.svg" /></div>
+                  <div class="card__title">Add to GPay</div>
+                </div>
+                <div class="flex card text-center">
+                  <div><img src="assets/Replace card.svg" /></div>
+                  <div class="card__title">Replace card</div>
+                </div>
+                <div class="flex card text-center">
+                  <div><img src="assets/Deactivate card.svg" /></div>
+                  <div class="card__title">Cancel card</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section__card--right">
+              <div>
+                <div class="flex section__cards section__cards--away">
+                  <div class="d-flex">
+                    <div>
+                      <img src="assets/Group 11889.svg" alt="" />
+                    </div>
+                    <div class="detail">Card details</div>
+                  </div>
+                  <span><img src="assets/down-arrow.svg" /></span>
+                </div>
+              </div>
+              <div class="transation-border mob-nav-margin">
+                <div class="flex section__cards section__cards--away">
+                  <div class="d-flex">
+                    <div>
+                      <img src="assets/recent.svg" alt="" />
+                    </div>
+                    <div class="detail">Recent transactions</div>
+                  </div>
+                  <span><img src="assets/up-arrow.svg" /></span>
+                </div>
+                <div class="transaction-list">
+                  <div class="transaction-item d-flex justify-content-between m-4 pY-3 borde-btm-light">
+                    <div class="file-storage-bg text-center">
+                      <img src="assets/file-storage (1).svg" alt="" />
+                    </div>
+                    <div class="d-flex justify-content-between w-80">
+                      <div>
+                        <p class="b mB-1">Hamleys</p>
+                        <p class="text-muted">
+                          20 May 2020
+                        </p>
+                        <div class="flex align-center">
+                          <span>
+                            <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                          </span>
+                          <span class="refund-text">Change to Debit card</span>
+                        </div>
+                      </div>
+                      <div class="green debit-amt">
+                        + S$ 500
+                        <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="transaction-item d-flex justify-content-between m-4 pY-3 borde-btm-light">
+                    <div class="file-storage-bg text-center flight">
+                      <img src="assets/flights.svg" alt="" />
+                    </div>
+                    <div class="d-flex justify-content-between w-80">
+                      <div>
+                        <p class="b mB-1">Hamleys</p>
+                        <p class="text-muted">
+                          20 May 2020
+                        </p>
+                        <div>
+                          <span>
+                            <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                          </span>
+                          <span class="refund-text">Refund on Debit card</span>
+                        </div>
+                      </div>
+                      <div class="debit-amt">
+                        - S$ 500
+                        <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="transaction-item d-flex justify-content-between m-4 pY-3 borde-btm-light">
+                    <div class="file-storage-bg text-center megafone">
+                      <img src="assets/megaphone.svg" alt="" />
+                    </div>
+                    <div class="d-flex justify-content-between w-80">
+                      <div>
+                        <p class="b mB-1">Hamleys</p>
+                        <p class="text-muted">
+                          20 May 2020
+                        </p>
+                        <div class="flex align-center">
+                          <span>
+                            <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                          </span>
+                          <span class="refund-text">Change to Debit card</span>
+                        </div>
+                      </div>
+                      <div class="debit-amt">
+                        - S$ 500
+                        <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="transaction-item d-flex justify-content-between m-4 pY-3">
+                    <div class="file-storage-bg text-center">
+                      <img src="assets/file-storage (1).svg" alt="" />
+                    </div>
+                    <div class="d-flex justify-content-between w-80">
+                      <div>
+                        <p class="b mB-1">Hamleys</p>
+                        <p class="text-muted">
+                          20 May 2020
+                        </p>
+                        <div>
+                          <span>
+                            <img src="assets/business-and-finance (1).svg" alt="" class="refund-img" />
+                          </span>
+                          <span class="refund-text">Refund on Debit card</span>
+                        </div>
+                      </div>
+                      <div class="debit-amt">
+                        + S$ 500
+                        <span><img src="assets/next.svg" alt="" class="ms-2" /></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="text-center green all-trans-text pY-4">
+                  <p class="m-0">View all card transaction</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
